@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Service Pimentels | Professional Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <nav class="glass shadow-sm sticky top-0 z-50 p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-800 tracking-tighter">PIMENTELS <span class="text-blue-500 underline text-sm">SPRING SERVICE</span></h1>
+            <div class="hidden md:flex space-x-6 font-medium text-gray-600">
+                <a href="#" class="hover:text-blue-600 transition">Inicio</a>
+                <a href="#servicios" class="hover:text-blue-600 transition">Servicios</a>
+                <a href="https://wa.me/TUNUMERO" class="bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition shadow-md">WhatsApp</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative h-[80vh] flex items-center justify-center text-white overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=2000" 
+                 class="w-full h-full object-cover brightness-50" alt="Banner">
+        </div>
+        <div class="relative z-10 text-center px-4">
+            <h2 class="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg">Calidad que Perdura</h2>
+            <p class="text-xl md:text-2xl mb-8 font-light max-w-2xl mx-auto">Servicios profesionales para tu hogar y negocio con garantía Pimentel.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#servicios" class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-bold text-lg shadow-xl transition-all hover:-translate-y-1">Ver Catálogo</a>
+                <a href="https://wa.me/TUNUMERO" class="bg-white text-blue-900 hover:bg-gray-100 px-10 py-4 rounded-xl font-bold text-lg shadow-xl transition-all hover:-translate-y-1">Contacto Directo</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicios" class="max-w-7xl mx-auto py-20 px-6">
+        <div class="text-center mb-16">
+            <h3 class="text-4xl font-bold text-gray-900 mb-2">Nuestros Servicios</h3>
+            <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            
+            <div class="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://via.placeholder.com/600x400" class="w-full h-56 object-cover" alt="Servicio">
+                <div class="p-8">
+                    <h4 class="text-2xl font-bold mb-3 text-gray-800">Mantenimiento Pro</h4>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Descripción detallada de tu servicio. Calidad garantizada con los mejores materiales.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-3xl font-extrabold text-blue-700">$150.00</span>
+                        <a href="TU_LINK_DE_PAYPAL" class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-blue-800 transition">Pagar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://via.placeholder.com/600x400" class="w-full h-56 object-cover" alt="Servicio">
+                <div class="p-8">
+                    <h4 class="text-2xl font-bold mb-3 text-gray-800">Reparación Especializada</h4>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Atención inmediata para resolver cualquier inconveniente técnico en su propiedad.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-3xl font-extrabold text-blue-700">$200.00</span>
+                        <a href="TU_LINK_DE_PAYPAL" class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-blue-800 transition">Pagar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://via.placeholder.com/600x400" class="w-full h-56 object-cover" alt="Servicio">
+                <div class="p-8">
+                    <h4 class="text-2xl font-bold mb-3 text-gray-800">Servicio de Emergencia</h4>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Disponible las 24 horas para servicios críticos que no pueden esperar.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-3xl font-extrabold text-blue-700">$350.00</span>
+                        <a href="TU_LINK_DE_PAYPAL" class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-blue-800 transition">Pagar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 text-center">
+        <p class="text-gray-400">&copy; 2026 Spring Service Pimentels. Todos los derechos reservados.</p>
+        <div class="mt-4 space-x-4">
+            <span class="text-sm">Pagos protegidos vía PayPal y Chase</span>
+        </div>
+    </footer>
+
+</body>
+</html>
